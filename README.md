@@ -1,14 +1,8 @@
-# today
-
-"Today" not "Todo"
+# "Today" not "Todo"
 
 ## Prime directive
 
 The guiding principal of this tool is the reduction of todos displayed each day.
-
-Todos should be time and place sensitive.
-
-It's distracting to see house chores while you are in the office.
 
 The endless list is overwhelming and not usually useful, so care should be taken to only display a few tasks or even one at a time.
 
@@ -21,6 +15,8 @@ The endless list is overwhelming and not usually useful, so care should be taken
 * Capture of a todo item should take less than 5 seconds.
 
 * Todos should have a time estimate, time actual, date, place, and time of day. This is optional.
+
+* Todos should be time and place sensitive. It's distracting to see house chores while you are in the office.
 
 ## Psychology
 
