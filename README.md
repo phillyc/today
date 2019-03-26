@@ -20,9 +20,9 @@ The endless list is overwhelming and not usually useful, so care should be taken
 
 ## Psychology
 
-"The [Zeigarnik effect](https://en.wikipedia.org/wiki/Zeigarnik_effect) states that people remember uncompleted or interrupted tasks better than completed tasks." 
+"The [Zeigarnik effect](https://en.wikipedia.org/wiki/Zeigarnik_effect) states that people remember uncompleted or interrupted tasks better than completed tasks."
 
-While this particular effect hasn't been widely tested, it's fair to say that we want to keep the completed tasks *somewhere* for later review and analysis. In this way, we can complete tasks and forget about them, but be confident that we can recall and review them later.
+While this particular effect has been disputed and hasn't been widely tested, it's fair to say that we want to keep the completed tasks *somewhere* for later review and analysis. In this way, we can complete tasks and forget about them, but be confident that we can recall and review them later.
 
 "The [Ovsiankina effect](https://en.wikipedia.org/wiki/Ovsiankina_effect) is the tendency to pick up an interrupted action again when it has still not been achieved. ... It creates intrusive thoughts, aimed at taking up the task again."
 
