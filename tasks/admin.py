@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Category, Comment, Task
+
+
+models = [Category, Comment, Task]
+admin.site.register(models)
