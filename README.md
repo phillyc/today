@@ -27,3 +27,14 @@ While this particular effect has been disputed and hasn't been widely tested, it
 "The [Ovsiankina effect](https://en.wikipedia.org/wiki/Ovsiankina_effect) is the tendency to pick up an interrupted action again when it has still not been achieved. ... It creates intrusive thoughts, aimed at taking up the task again."
 
 It's obvious that the little things left undone eat away at us. This project aims to provide a way to "interupt" a task, then quickly get back on track when possible.
+
+
+## Local Setup
+
+Can use any Python version greater than 3.4.x
+
+We're using django-heroku so make sure pipenv is installed and updated.
+
+To initialize the virtualenv, from inside the /today directory, run `pipenv shell`.
+
+You should see the (today) env on the prompt line.

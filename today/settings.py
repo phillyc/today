@@ -124,6 +124,7 @@ STATIC_URL = '/static/'
 # Activate Django-Heroku
 django_heroku.settings(locals())
 
-# Override prod variables if DJANGO_DEVELOPMENT env var is set.
-if os.environ.get('DJANGO_DEVELOPMENT'):
-    from settings_dev import *
+try:
+    from .local_settings import *
+except ImportError:
+    pass

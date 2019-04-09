@@ -123,4 +123,4 @@ dmypy.json
 .pyre/
 
 # local dev settings
-today/settings_dev.py
+today/local_settings.py
