@@ -19,10 +19,10 @@ class Comment(models.Model):
 class Task(models.Model):
     title = models.CharField(max_length=255)
     description = models.TextField(blank=True)
-    created = models.DateTimeField('date created', default=timezone.now)
-    modified = models.DateTimeField('date updated', default=timezone.now)
-    due = models.DateTimeField('due date', blank=True, null=True)
-    completed = models.DateTimeField('date completed', blank=True, null=True)
+    created = models.DateField('date created', default=timezone.now)
+    modified = models.DateField('date updated', default=timezone.now)
+    due = models.DateField('due date', blank=True, null=True)
+    completed = models.DateField('date completed', blank=True, null=True)
     tags = models.ManyToManyField(Tag, blank=True)
     estimated = models.IntegerField(blank=True, null=True)  # 5, 30, and 60 minute increments
     actual = models.IntegerField(blank=True, null=True)

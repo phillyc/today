@@ -1,7 +1,12 @@
+{% extends "tasks/base.html" %}
+{% block content %}
+
 <h1>{{ task.title }}</h1>
 <ul>
-    <li>{{ task.created }}</li>
-    <li>{{ task.modified }}</li>
-    <li>{{ task.due }}</li>
-    <li>{{ task.completed }}</li>
+    <li>Created: {{ task.created }}</li>
+    <li>Last update: {{ task.modified }}</li>
+    <li>Due: {{ task.due }}</li>
+    <li>Completed: {{ task.completed }}</li>
 </ul>
+
+{% endblock %}
